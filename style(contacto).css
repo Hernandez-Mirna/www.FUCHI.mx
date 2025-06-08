@@ -1,0 +1,140 @@
+body {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #abf7ae; /* Verde claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+     background-image: url(verde.jpg);
+        background-attachment: fixed;
+}
+
+header {
+    background-color: #5fc743; /* Verde fuerte */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 49px;
+    margin: 0;
+    text-shadow: 2px 2px 4px #000000;
+    font-family:"Rock Salt";
+}
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Espacio entre logos y texto */
+  margin-top: 20px;
+}
+
+.lengua {
+  width: 150px;
+  height: auto;
+}
+
+.texto-titulo {
+  text-align: center;
+}
+
+header h2 {
+    font-size: 24px;
+    margin: 0;
+    text-shadow: 1px 1px 2px #1a1919;
+}
+
+nav {
+    background-color: #47aa4c; /* Verde oscuro */
+    padding: 10px;
+    text-align: center;
+   
+    }
+.navegación-principal {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Dorado */
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(236, 37, 243);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #1bfd2e; /* Rosa fuerte */
+    font-size: 32px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #69c6ff;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #b269ff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff8914;
+}
+
+footer {
+    background-color: #f85959;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;}
+
+    .imagem{
+        min-height: 100vh;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+       
+    }

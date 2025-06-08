@@ -1,0 +1,147 @@
+html{
+  font-size: 62.5%;
+}
+body {
+  font-size: 16px;
+  background-color: pink;
+    margin: 0;
+    padding: 0;
+}
+p {text-align: center;}
+header { text-align: center;}
+
+
+.titulo{
+        font-family: "Rock Salt", cursive;
+        font-weight: 200;
+        font-style: normal;
+       color: green;
+}
+
+.container {
+  display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.layout {
+  display: flex;
+  justify-content: left;
+  align-items: right;
+  gap: 900px;
+}
+.aside {
+  flex: 0 0 300px;
+  text-align: center;
+}
+  main {text-align: center;
+  flex: 0 0 auto;
+}
+.aside img, main img {
+  max-width: 100%;
+  height: auto;
+}
+.Nombres {
+      font-family: "Rock Salt", cursive;
+      font-weight: 200;
+      font-style: normal;
+      margin-bottom: 200px;
+      text-align: right;  
+}
+.perfil {
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+  gap: 2rem;
+}
+
+.perfil img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.perfil .info {
+  max-width: 400px;
+  font-family: "Rock Salt", cursive;
+}
+
+.Kamy {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: right;
+  margin: 2rem;
+  gap: 2rem;
+}
+
+.Kamy img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.Kamy .info {
+  max-width: 400px;
+  font-family: "Rock Salt", cursive;
+}
+
+.sam {
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+  gap: 2rem;
+}
+
+.sam img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sam .info {
+  max-width: 400px;
+  font-family: "Rock Salt", cursive;
+}
+
+.emi {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: right;
+  margin: 2rem;
+  gap: 2rem;
+}
+
+.emi img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.emi .info {
+  max-width: 400px;
+  font-family: "Rock Salt", cursive;
+}
+
+
+  span{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.left {
+  text-align: right;
+}
+footer{
+  font-family: "Rock Salt", cursive;
+  text-align: center;
+  background-color: greenyellow;
+  margin-top: 20px;
+    text-align: center;
+}
+footer:hover{
+  background-color: yellow;
+}

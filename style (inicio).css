@@ -1,0 +1,126 @@
+html{
+  font-size: 62.5%;
+}
+body {
+  line-height: 1.6;
+  padding: 20px;
+  font-family: "Rock Salt", cursive;
+  font-size: 16px;
+  background-color: #FF00FF;
+    margin: 0;
+    padding: 0;
+}
+
+p {text-align: center;}
+header { text-align: center;}
+
+
+header{
+        font-family: "Rock Salt", cursive;
+        font-weight: 200;
+        font-style: normal;
+       color: rgb(255, 255, 255)
+}
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Espacio entre logos y texto */
+  margin-top: 20px;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+.texto-titulo {
+  text-align: center;
+}
+
+
+.links{
+    text-align: center;
+    font-family: "Rock Salt", cursive;
+    font-weight: 900;
+} 
+.links {
+    background-color: white;
+    transition: background-color 0.5s;
+}
+.links:hover {
+  background-color: rgb(47, 235, 47);
+}
+
+  span{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+h2{
+    text-align: center;
+    font-family: "Rock Salt", cursive;
+     background-color: rgb(40, 248, 8);
+  padding: 10px 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px hotpink;
+  transition: transform 0.3s ease;
+}
+h2:hover{
+  transform: scale(1.3);
+}
+section {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espacio entre las imágenes */
+  margin: 20px 0; /* Espacio arriba y abajo del section */
+}
+
+section img {
+  padding: 0;
+  margin: 0;
+}
+
+
+.portada {
+  display: block;
+  margin: 0 auto;
+}
+.mandamientos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 30px auto;
+  max-width: 1000px;
+  font-family: "Rock Salt", cursive;
+  color: black;
+}
+
+.mandamientos li {
+  flex: 1 1 45%; /* Esto hace que se acomoden como en columnas */
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px hotpink;
+  transition: transform 0.3s ease;
+}
+
+.memes{display: flex;
+  justify-content: center;
+  gap: 20px; /* Espacio entre las imágenes */
+  margin: 20px 0; /* Espacio arriba y abajo del section */}
+.pruebas{display: flex;
+  justify-content: center;
+  gap: 20px; /* Espacio entre las imágenes */
+  margin: 20px 0; /* Espacio arriba y abajo del section */}
+
+footer{
+  text-align: center;
+  background-color: greenyellow;
+  margin-top: 20px;
+    text-align: center;
+}
